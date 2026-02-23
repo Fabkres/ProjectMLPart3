@@ -1,6 +1,13 @@
 # CMI Detect Behavior with Sensor Data
 
-Machine Learning para Kaggle: CMI Detect Behavior with Sensor Data
+Nesta competição do Kaggle, a ideia é usar dados de sensores de um dispositivo usado no pulso (tipo um relógio) para diferenciar movimentos do dia a dia de comportamentos repetitivos focados no corpo (BFRBs), como puxar cabelo, roer unhas ou cutucar a pele. Em outras palavras, o desafio é fazer um modelo que consiga perceber padrões nesses sinais e dizer se o movimento parece um gesto comum (como ajustar os óculos ou beber água) ou um gesto do tipo BFRB - Body-Focused Repetitive Behaviors. Além disso, quando for BFRB, o modelo também precisa identificar qual gesto específico está acontecendo.
+Os dados vêm de diferentes sensores do dispositivo. Além do sensor de movimento (IMU), existem sensores que ajudam a perceber o calor do corpo (termopilhas) e proximidade (time-of-flight). Um ponto importante é que, na avaliação, parte do conjunto de teste tem somente IMU - Inertial Measurement Unit e outra parte tem todos os sensores, o que ajuda a medir se esses sensores extras realmente melhoram a detecção dos comportamentos.
+
+
+Link da competição: 
+[CMI - Detect Behavior with Sensor Data](https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data) 
+
+
 
 ## Instalacao
 
